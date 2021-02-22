@@ -3,6 +3,6 @@ Generador ramdom de letras ,de las cuales si la combinación coincide con un nom
 
 ## Grupo
 
-Niki Lysenko
-Albert Oliver
-Iván Vidal
+- Niki Lysenko
+- Albert Oliver
+- Iván Vidal
