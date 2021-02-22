@@ -17,37 +17,41 @@
 </head>
 
 <body>
+
     <header class="encabezado">
         <div id="logo" class="logo d-flex justify-content-center" title="Logo"></div>
     </header>
 
     <main>
         <div class="container-fluid">
-
             <div id="contenido" class="row d-flex justify-content-center">
-                <div id="resultado" class="col-md-4">
-                    <div id="resultados" class="my-3 p-3 bg-white rounded sombra alturas"></div>
+                <div id="resultado" class="col-md-4 p-3">
+                    <div id="resultados" class="my-3 p-3 bg-white rounded sombra h-100">
+                        <div id="res_nombre"></div>
+                        <div id="res_desc"></div>
+                        <div class="gifCarga"><img id="loading_spinner" src="img/squares.gif"></div>
+                    </div>
                 </div>
-                <div id="selectores" class="col-md-4">
-                    <div class="my-3 p-3 bg-white rounded sombra alturas">
-                        <label for="longitud_nombre" class="form-label">Longitud del nombre</label>
-                        <input type="range" class="form-range" min="0" max="5" id="longitud_nombre">
-                        <label for="densidad_vocales" class="form-label">Densidad de vocales</label>
-                        <input type="range" class="form-range" min="0" max="5" id="densidad_vocales" disabled>
-                        <div class="d-flex justify-content-end">
-                            <button class="btn btn-warning d-flex justify-content-end" type="submit">Generar</button>
-
-                        </div>
+                <div id="selectores" class="col-md-4 p-3">
+                    <div class="my-3 p-3 bg-white rounded sombra h-100">
                         <div class="row gx-10 my-3">
-                            <div class="col-md-6 p-1">
+                            <div class="col-md-6 rounded">
+                                <label for="longitud_nombre" class="form-label">Longitud del nombre <div id="valor_longitud" class="ms-5 d-inline-flex"></div></label>
+                                <input type="range" class="form-range" min="3" max="10" id="longitud_nombre" oninput="showVal(this.value)" onchange="showVal(this.value)">
+                                <label for="densidad_vocales" class="form-label">Densidad de vocales</label>
+                                <input type="range" class="form-range" min="3" max="10" id="densidad_vocales" disabled>
+                                <button id="generar" class="col-12 my-3 btn btn-warning">Generar</button>
+                            </div>
+                            <div class="col-md-6 rounded">
                                 <div id="ultimos" class="p-3 border bg-white rounded">
-                                    <h6 class="border-bottom pb-2 mb-0">Últimos</h6>
-                                    <div class="my-3">
-                                        Bla Bla
+                                    <h6 class="border-bottom ">Últimos</h6>
+                                    <div id="res_ult" class="my-3">
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 p-1">
+                        </div>
+                        <div class="row gx-10 my-3">
+                            <div class="col-md-12">
                                 <div id="premiados" class="p-3 border bg-white rounded">
                                     <h6 class="border-bottom pb-2 mb-0">Premiados</h6>
                                     <div class="my-3">
@@ -63,11 +67,13 @@
             </div>
         </div>
     </main>
+
     <footer>
         <div id="oscuro" class="dot" title="Modo Dark Vader">
             <span id="icono" class="fa fa-moon fa-2x"></span>
         </div>
     </footer>
+
 </body>
 
 </html>

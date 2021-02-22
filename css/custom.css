@@ -107,3 +107,8 @@ span.fa-lightbulb {
 .form-range:disabled::-moz-range-thumb {
   background-color: #adb5bd !important;
 }
+
+#loading_spinner {display: none;}
+
+#resultados, .gifCarga {text-align: center}
+#resultados {font-size: 20px}
