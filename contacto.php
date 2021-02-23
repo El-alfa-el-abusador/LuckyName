@@ -23,69 +23,58 @@
 
     <main>
         <div class="container-fluid">
-
-            <form id="contacto" class="row g-3 needs-validation bg-white rounded" validate>
-                <div class="col-md-4">
-                    <label for="validationCustom01" class="form-label">First name</label>
-                    <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+        <div id="contenido" class="row d-flex justify-content-center">
+        <div id="contacto" class="col-md-5">
+        <form id="contacto" class="my-3 p-3 rounded sombra h-100 needs-validation bg-white rounded" validate>
+                <div class="col-md">
+                    <label for="validationCustom01" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="validationCustom01" value="" required>
                     <div class="valid-feedback">
                         Looks good!
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <label for="validationCustom02" class="form-label">Last name</label>
-                    <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+                <div class="col-md">
+                    <label for="validationCustom02" class="form-label">Apellidos</label>
+                    <input type="text" class="form-control" id="validationCustom02" value="" required>
                     <div class="valid-feedback">
                         Looks good!
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <label for="validationCustomUsername" class="form-label">Username</label>
+                <div class="col-md">
+                    
+                    <label for="validationCustomUsername" class="form-label">Correo electrónico</label>
                     <div class="input-group has-validation">
-                        <span class="input-group-text" id="inputGroupPrepend">@</span>
+                        <div class="col-md-7">
                         <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                        </div>
+                        <span class="input-group-text" id="inputGroupPrepend">@</span>
+                        <input type="text" class="form-control col-md-5 " id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
                         <div class="invalid-feedback">
-                            Please choose a username.
+                            Elige un usuario.
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <label for="validationCustom03" class="form-label">City</label>
+                <div class="col-md">
+                    <label for="validationCustom03" class="form-label">Ciudad</label>
                     <input type="text" class="form-control" id="validationCustom03" required>
                     <div class="invalid-feedback">
-                        Please provide a valid city.
+                        Introduce un ciudad válida.
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <label for="validationCustom04" class="form-label">State</label>
-                    <select class="form-select" id="validationCustom04" required>
-                        <option selected disabled value="">Choose...</option>
-                        <option>...</option>
-                    </select>
-                    <div class="invalid-feedback">
-                        Please select a valid state.
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <label for="validationCustom05" class="form-label">Zip</label>
-                    <input type="text" class="form-control" id="validationCustom05" required>
-                    <div class="invalid-feedback">
-                        Please provide a valid zip.
-                    </div>
-                </div>
+            
                 <div class="col-12">
-                    <div class="form-check">
+                    <div class="form-check my-3">
                         <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
                         <label class="form-check-label" for="invalidCheck">
-                            Agree to terms and conditions
+                            Acepto los terminos y condiciones
                         </label>
                         <div class="invalid-feedback">
-                            You must agree before submitting.
+                            Aceptalos antes de enviar.
                         </div>
                     </div>
                 </div>
                 <div class="col-12">
-                    <button class="btn btn-primary" type="submit">Submit form</button>
+                    <button class="btn btn-primary" type="submit">Enviar</button>
                 </div>
             </form>
 
