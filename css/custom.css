@@ -24,17 +24,19 @@ body {
   color: white;
 }
 
-.encabezado {
+
+
+.sombra {
+    box-shadow: 0 1vh 1.53vh rgba(0, 0, 0, 0.353);
+}
+
+#logo {
   margin: auto;
   width: auto;
   max-width: max-content;
   position: relative;
   top: 60px;
   left: 10px;
-}
-
-.sombra {
-    box-shadow: 0 1vh 1.53vh rgba(0, 0, 0, 0.353);
 }
 
 .logo {
