@@ -27,8 +27,15 @@
         <div id="contacto" class="col-md-5">
         <form id="contacto" class="my-3 p-3 rounded sombra h-100 needs-validation bg-white rounded" validate>
             <div class="col-md">
-            texto sin nadafjfjfdjfj
-            
+            <b>LuckyName</b> es un generador de nombres que premia a los usuarios que consiguen
+            generar uno dentro de las distinas opciones de longitud de palabra que elijan los usuarios, 
+            cuantas más letras tenga una palabra más díficil es generarla y más reconocida es la generación de la misma.
+            Los creadores de esta página somos Iván Vidal, Albert Oliver y Niki Lysenko.
+            <br><br>
+            <a aria-hidden="Instagram" href="https://commons.wikimedia.org/wiki/File:Instagram.svg"><img width="64" alt="Instagram" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Instagram.svg/64px-Instagram.svg.png"></a>
+            <a aria-hidden="Facebook" href="https://commons.wikimedia.org/wiki/File:Facebook_f_logo_(2019).svg"><img width="64" alt="Facebook f logo (2019)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/64px-Facebook_f_logo_%282019%29.svg.png"></a>
+            <a aria-hidden="Facebook" href="https://commons.wikimedia.org/wiki/File:Facebook_f_logo_(2019).svg"><img width="64" alt="Facebook f logo (2019)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/64px-Facebook_f_logo_%282019%29.svg.png"></a>
+            <a aria-hidden="Facebook" href="https://commons.wikimedia.org/wiki/File:Facebook_f_logo_(2019).svg"><img width="64" alt="Facebook f logo (2019)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/64px-Facebook_f_logo_%282019%29.svg.png"></a>
             </div>
         </form>
     </main>
