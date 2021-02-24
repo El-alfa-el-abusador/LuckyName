@@ -16,7 +16,7 @@
     <title>LuckyName</title>
 </head>
 
-<body>
+<body onload="showVal()">
 
     <header class="encabezado">
         <div id="logo" class="logo d-flex justify-content-center" title="Logo"></div>

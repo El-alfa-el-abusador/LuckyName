@@ -1,8 +1,7 @@
 $(document).ready(function () {
   establece_estado();
-  showVal();
-  ocm(); 
-  ultimos(); 
+  ocm();
+  ultimos();
   $("#oscuro").click(function () {
     cambiar_estado();
   });
@@ -11,12 +10,19 @@ $(document).ready(function () {
 
 function establece_estado() {
   estado = localStorage.getItem('luces');
-  if (estado == "on") {
-    encender_luces();
-  } else {
-    apagar_luces();
 
+  switch (estado) {
+    case null:
+      localStorage.setItem('luces', 'on');
+      break;
+    case 'on':
+      encender_luces();
+      break;
+    case 'off':
+      apagar_luces();
+      break;
   }
+
 }
 
 function cambiar_estado() {
@@ -41,18 +47,19 @@ function encender_luces() {
   $('#ultimos').toggleClass('div-dark bg-white');
   $('#premiados').toggleClass('div-dark bg-white');
   $('#icono').toggleClass('fa-lightbulb fa-moon');
+  $('#contacto').children().toggleClass('div-dark bg-white');
 }
 
 function apagar_luces() {
   localStorage.setItem('luces', 'off');
   $("body").toggleClass("body-dark");
   $('#resultado').children().toggleClass('bg-white div-dark');
-  $('#selectores').children().toggleClass('bg-white div-dark');
+  $('#selectores').children().toggleClass('bg-white div-dark');  
   $('#ultimos').toggleClass('bg-white div-dark');
   $('#premiados').toggleClass('bg-white div-dark');
   $('#icono').toggleClass('fa-moon fa-lightbulb');
+  $('#contacto').children().toggleClass('bg-white div-dark');
 }
-
 
 function showVal() {
   var newVal = document.getElementById("longitud_nombre").value;
@@ -86,8 +93,8 @@ function ocm() {
         jQuery("#res_nombre").html("Generando...");
       },
       success: function (response) {
-        
-        setTimeout(function () {          
+
+        setTimeout(function () {
           jQuery('#loading_spinner').hide();
           //mostramos salida del PHP
           jQuery("#res_nombre").html(response);
@@ -147,10 +154,10 @@ function ultimos() {
   $.ajax({
     url: 'inc/pdo_ult.php',
     type: 'post',
-    beforeSend: function () {      
+    beforeSend: function () {
     },
     success: function (response) {
-      jQuery("#res_ult").html(response);     
+      jQuery("#res_ult").html(response);
     }
   });
 
