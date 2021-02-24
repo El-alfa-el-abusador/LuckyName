@@ -17,7 +17,16 @@
 </head>
 
 <body>
-    <header class="encabezado">
+<header>
+        <div class="col d-flex justify-content-end fixed-top">
+            <nav class="navbar navbar-light">
+                <div class="container-fluid">
+                    <button class="navbar-toggler bg-white " type="button">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </nav>
+        </div>
         <div id="logo" class="logo d-flex justify-content-center" title="Logo"></div>
     </header>
 
@@ -33,10 +42,10 @@
             Los creadores de esta página somos Iván Vidal, Albert Oliver y Niki Lysenko.</p>
             <br>
             <div class="d-flex justify-content-center">
-            <span class="me-4"><a aria-hidden="Instagram" href="https://commons.wikimedia.org/wiki/File:Instagram.svg"><img width="64" alt="Instagram" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Instagram.svg/64px-Instagram.svg.png"></a></span>
-            <span class="me-4"><a aria-hidden="Facebook" href="https://commons.wikimedia.org/wiki/File:Facebook_f_logo_(2019).svg"><img width="64" alt="Facebook f logo (2019)" src="img/tlogo/circle/tlogo_circle.svg"></a></span>  
-            <span class="me-4"><a aria-hidden="Facebook" href="https://commons.wikimedia.org/wiki/File:Facebook_f_logo_(2019).svg"><img width="64" alt="Facebook f logo (2019)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/64px-Facebook_f_logo_%282019%29.svg.png"></a></span>
-            <span class="me-4"><a aria-hidden="Facebook" href="https://commons.wikimedia.org/wiki/File:Facebook_f_logo_(2019).svg"><img width="64" alt="Facebook f logo (2019)" src="img/tiktok-logo.svg"></a></span>
+            <span class="me-4"><a title="Instagram" href="https://www.instagram.com/" rel="noopener nofollow" target="_blank"><img width="64" alt="Instagram" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Instagram.svg/64px-Instagram.svg.png"></a></span>
+            <span class="me-4"><a title="Twitter" href="https://twitter.com/" rel="noopener nofollow" target="_blank"><img width="64" alt="Facebook f logo (2019)" src="img/tlogo/circle/tlogo_circle.svg"></a></span>  
+            <span class="me-4"><a title="Facebook" href="https://www.facebook.com/" rel="noopener nofollow" target="_blank"><img width="64" alt="Facebook f logo (2019)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/64px-Facebook_f_logo_%282019%29.svg.png"></a></span>
+            <span class="me-4"><a title="TikTok" href="https://www.tiktok.com/" rel="noopener nofollow" target="_blank"><img width="64" alt="Facebook f logo (2019)" src="img/tiktok-logo.svg"></a></span>
             </div>
         </form>
     </main>

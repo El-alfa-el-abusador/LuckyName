@@ -17,7 +17,16 @@
 </head>
 
 <body>
-    <header class="encabezado">
+<header>
+        <div class="col d-flex justify-content-end fixed-top">
+            <nav class="navbar navbar-light">
+                <div class="container-fluid">
+                    <button class="navbar-toggler bg-white " type="button">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </nav>
+        </div>
         <div id="logo" class="logo d-flex justify-content-center" title="Logo"></div>
     </header>
 
