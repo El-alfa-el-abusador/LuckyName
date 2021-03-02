@@ -26,9 +26,9 @@
         <span class="navbar-toggler-icon"></span>
         </button>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <li><a class="dropdown-item" href="main.php" rel="noopener nofollow" target="_blank">Home</a></li>
-            <li><a class="dropdown-item" href="aboutus.php" rel="noopener nofollow" target="_blank">About us</a></li>
-            <li><a class="dropdown-item" href="contacto.php" rel="noopener nofollow" target="_blank">Contacto</a></li>
+          <li><a class="dropdown-item" href="main.php" rel="noopener nofollow" target="_self">Home</a></li>
+            <li><a class="dropdown-item" href="aboutus.php" rel="noopener nofollow" target="_self">About us</a></li>
+            <li><a class="dropdown-item" href="contacto.php" rel="noopener nofollow" target="_self">Contacto</a></li>
           </ul>
                 </div>
             </nav>
