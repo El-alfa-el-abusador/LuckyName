@@ -18,12 +18,17 @@
 
 <body>
 <header>
-        <div class="col d-flex justify-content-end fixed-top">
-            <nav class="navbar navbar-light">
+    <div class="col d-flex justify-content-start fixed-top">
+        <nav class="navbar navbar-light">
                 <div class="container-fluid">
-                    <button class="navbar-toggler bg-white " type="button">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+        <button class="nav-link navbar-toggler bg-white" id="navbarDropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" href="main.php" rel="noopener nofollow" target="_blank">Home</a></li>
+            <li><a class="dropdown-item" href="aboutus.php" rel="noopener nofollow" target="_blank">About us</a></li>
+            <li><a class="dropdown-item" href="contacto.php" rel="noopener nofollow" target="_blank">Contacto</a></li>
+          </ul>
                 </div>
             </nav>
         </div>
