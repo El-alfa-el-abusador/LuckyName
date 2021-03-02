@@ -1,7 +1,7 @@
 Options -Indexes +FollowSymLinks -MultiViews
 
-RewriteEngine on
- 
+RewriteEngine On
+RewriteRule ^(inc)($|/) - [L]
 RewriteCond %{THE_REQUEST} /([^.]+)\.php [NC]
 RewriteRule ^ /%1 [NC,L,R]
 RewriteCond %{REQUEST_FILENAME}.php -f
