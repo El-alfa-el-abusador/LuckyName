@@ -6,3 +6,7 @@ Generador ramdom de letras, de las cuales si la combinación coincide con un nom
 - Niki Lysenko
 - Albert Oliver
 - Iván Vidal
+
+## Sitio web
+El generador se puede visitar en
+[Link](http://luckyname.fun "LuckyName")
