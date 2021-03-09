@@ -9,7 +9,13 @@ Generador ramdom de letras, de las cuales si la combinación coincide con un nom
 
 ## Estructura Base de Datos
 
--
+- Nombres
+  - Nombres
+    - ID
+    - Nombre
+    - Descripcion
+  - Últimos
+    - Últimos  
 
 ## Sitio web
 El generador se puede visitar en
