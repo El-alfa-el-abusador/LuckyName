@@ -20,4 +20,4 @@ Generador ramdom de letras, de las cuales si la combinación coincide con un nom
 El generador se puede visitar en
 [Link](http://luckyname.fun "LuckyName")
 
-![imagen](https://user-images.githubusercontent.com/57540163/110508820-b796dd00-8101-11eb-853d-a7404fc2cd92.png)
+![imagen](https://user-images.githubusercontent.com/57540163/110511398-7a801a00-8104-11eb-890c-d8c876ce2e3d.png)
