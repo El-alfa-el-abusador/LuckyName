@@ -11,12 +11,7 @@ Generador ramdom de letras, de las cuales si la combinación coincide con un nom
 
 - Nombres
   - Nombres
-    - ID
-    - Nombre
-    - Descripcion
-  - Últimos
-    - Últimos  
-
+  - Últimos    
 ## Sitio web
 El generador se puede visitar en
 [Link](http://luckyname.fun "LuckyName")
