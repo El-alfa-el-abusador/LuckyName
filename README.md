@@ -16,6 +16,11 @@ Generador ramdom de letras, de las cuales si la combinación coincide con un nom
     - Descripción 
   - Últimos
     - Nombres
+
+## Descripción del funcionamiento del código
+
+El código se constiutuye de diferentes partes, la primera, que es la más importante, es el generador letras aleatorias, después de generar el conjunto de letras comprueba con la base de datos existe y consta de descripción, una vez hecho esto el nombre se escribe en la tabla "últimos" y prodece a plasmarse en la página web. 
+
 ## Sitio web
 El generador se puede visitar en
 [Link](http://luckyname.fun "LuckyName")
